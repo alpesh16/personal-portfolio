@@ -88,7 +88,8 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background:crimson;
+
 }
 .navbar .max-width{
     display: flex;
@@ -110,6 +111,7 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+    
 }
 .navbar .menu li a{
     display: block;
@@ -117,10 +119,11 @@ section .title::after{
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(255, 0, 0);
 }
 .navbar.sticky .menu li a:hover{
     color: rgb(0, 0, 0);
@@ -197,8 +200,8 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
-    color: #fff;
+    background:none;
+    color: crimson;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -208,8 +211,8 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
-    background: none;
+    color: rgb(248, 248, 248);
+    background: crimson;
 }
 
 /* about section styling */
@@ -538,9 +541,7 @@ section .title::after{
     background: none;
 }
 /*social media*/
-.social .title::after{
-    content: "who with me";
-}
+
 .social .carousel .card{
     background: #222;
     border-radius: 3px;
@@ -745,10 +746,10 @@ footer span a:hover{
         line-height: 38px;
     }
 }
-/*dark maode*/
+/*dark maode
 .dark-mode{
     --clr-bakground:#263238;
     --clr-base-:block;
     --clr-primary:#69f0ae;
     --clr-gray:#e0f7fo;
-}
+}*/

@@ -48,6 +48,8 @@ $(document).ready(function(){
         loop: true
     });
 
+     
+
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
@@ -70,4 +72,7 @@ $(document).ready(function(){
         }
     });
 });
-
+/* power for buttons */
+function hire(){
+    document.getElementById(contact);
+}
