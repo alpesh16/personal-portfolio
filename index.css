@@ -242,7 +242,7 @@ section .title::after{
 .about .about-content .right a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: rgb(255, 254, 254);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
@@ -306,6 +306,7 @@ section .title::after{
 
 .skills .title::after{
     content: "what i know";
+    
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -321,7 +322,7 @@ section .title::after{
 .skills .skills-content .left a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -350,7 +351,7 @@ section .title::after{
 .skills .skills-content .right .line{
     height: 5px;
     width: 100%;
-    background: lightgrey;
+    background: rgb(255, 255, 255);
     position: relative;
 }
 .skills .skills-content .right .line::before{
@@ -535,6 +536,68 @@ section .title::after{
 .contact .right form .button button:hover{
     color: crimson;
     background: none;
+}
+/*social media*/
+.social .title::after{
+    content: "who with me";
+}
+.social .carousel .card{
+    background: #222;
+    border-radius: 3px;
+    padding: 0px 0px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.social .carousel .card:hover{
+    background: crimson;
+}
+.social .carousel .card .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.social .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.social .carousel .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 3px 0 1px 0;
+}
+.social .carousel .card img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.social .carousel .card:hover img{
+    border-color: #fff;
+}
+.owl-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot{
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid crimson!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active{
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+    background: crimson!important;
 }
 
 /* footer section styling */
