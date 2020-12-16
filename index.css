@@ -235,7 +235,6 @@ section .title::after{
 }
 .about .about-content .right .text span{
     color: crimson;
-    isolation: isolate;
 }
 .about .about-content .right p{
     text-align: justify;

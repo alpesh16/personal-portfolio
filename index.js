@@ -36,14 +36,14 @@ $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Gamer","YouTuber", "Developer", "Investor", "Designer", "Freelancer"],
-        typeSpeed: 100,
+        typeSpeed: 50,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
         strings: ["Gamer","YouTuber", "Developer", "Investor", "Designer", "Freelancer"],
-        typeSpeed: 100,
+        typeSpeed: 50,
         backSpeed: 60,
         loop: true
     });
@@ -71,18 +71,3 @@ $(document).ready(function(){
     });
 });
 
-const options = {
-    bottom: '64px', // default: '32px'
-  right: 'unset', // default: '32px'
-  left: '32px', // default: 'unset'
-  time: '0.3s', // default: '0.3s'
-  mixColor: '#fff', // default: '#fff'
-  backgroundColor: '#fff',  // default: '#fff'
-  buttonColorDark: '#DC143C',  // default: '#DC143C'
-  buttonColorLight: '#fff', // default: '#fff'
-  saveInCookies: true, // default: true,
-  label: '🌓', // default: ''
-  autoMatchOsTheme: false // default: true
-}
-const darkmode = new Darkmode(options);
-darkmode.showWidget();
